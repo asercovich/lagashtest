@@ -1,0 +1,4 @@
+c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.csprojAssemblyReference.cache
+c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.csproj.CoreCompileInputs.cache
+c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.AssemblyInfoInputs.cache
+c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.AssemblyInfo.cs
