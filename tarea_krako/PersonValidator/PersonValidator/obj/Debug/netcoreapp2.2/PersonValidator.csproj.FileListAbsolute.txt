@@ -1,4 +1,18 @@
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.csprojAssemblyReference.cache
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.csproj.CoreCompileInputs.cache
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.AssemblyInfoInputs.cache
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonValidator\obj\Debug\netcoreapp2.2\PersonValidator.AssemblyInfo.cs
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.csprojAssemblyReference.cache
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.csproj.CoreCompileInputs.cache
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.AssemblyInfoInputs.cache
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.AssemblyInfo.cs
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonValidator.deps.json
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonValidator.runtimeconfig.json
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonValidator.runtimeconfig.dev.json
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonValidator.dll
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonValidator.pdb
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonRepository.dll
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/bin/Debug/netcoreapp2.2/PersonRepository.pdb
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.csprojAssemblyReference.cache
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.AssemblyInfoInputs.cache
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.AssemblyInfo.cs
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.csproj.CopyComplete
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.dll
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/Debug/netcoreapp2.2/PersonValidator.pdb

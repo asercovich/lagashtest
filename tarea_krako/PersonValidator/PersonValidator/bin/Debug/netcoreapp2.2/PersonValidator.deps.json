@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "PersonValidator/1.0.0": {
+        "dependencies": {
+          "PersonRepository": "1.0.0"
+        },
+        "runtime": {
+          "PersonValidator.dll": {}
+        }
+      },
       "PersonRepository/1.0.0": {
         "runtime": {
           "PersonRepository.dll": {}
@@ -14,6 +22,11 @@
     }
   },
   "libraries": {
+    "PersonValidator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PersonRepository/1.0.0": {
       "type": "project",
       "serviceable": false,

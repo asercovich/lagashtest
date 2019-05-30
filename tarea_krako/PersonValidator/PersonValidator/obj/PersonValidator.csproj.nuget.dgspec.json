@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/PersonValidator.csproj": {}
+  },
+  "projects": {
+    "/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/PersonRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/PersonRepository.csproj",
+        "projectName": "PersonRepository",
+        "projectPath": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/PersonRepository.csproj",
+        "packagesPath": "/home/agustin/.nuget/packages/",
+        "outputPath": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/agustin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/PersonValidator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/PersonValidator.csproj",
+        "projectName": "PersonValidator",
+        "projectPath": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/PersonValidator.csproj",
+        "packagesPath": "/home/agustin/.nuget/packages/",
+        "outputPath": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonValidator/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/agustin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/PersonRepository.csproj": {
+                "projectPath": "/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/PersonRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

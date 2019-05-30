@@ -1,9 +1,18 @@
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\bin\Debug\netcoreapp2.2\PersonRepository.deps.json
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\bin\Debug\netcoreapp2.2\PersonRepository.dll
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\bin\Debug\netcoreapp2.2\PersonRepository.pdb
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\obj\Debug\netcoreapp2.2\PersonRepository.csprojAssemblyReference.cache
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\obj\Debug\netcoreapp2.2\PersonRepository.csproj.CoreCompileInputs.cache
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\obj\Debug\netcoreapp2.2\PersonRepository.AssemblyInfoInputs.cache
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\obj\Debug\netcoreapp2.2\PersonRepository.AssemblyInfo.cs
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\obj\Debug\netcoreapp2.2\PersonRepository.dll
-c:\temp\LU ejercicio net integrador\ejercicio-lu-net-generics\PersonValidator\PersonRepository\obj\Debug\netcoreapp2.2\PersonRepository.pdb
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/bin/Debug/netcoreapp2.2/PersonRepository.deps.json
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/bin/Debug/netcoreapp2.2/PersonRepository.dll
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/bin/Debug/netcoreapp2.2/PersonRepository.pdb
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.csprojAssemblyReference.cache
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.csproj.CoreCompileInputs.cache
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.AssemblyInfoInputs.cache
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.AssemblyInfo.cs
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.dll
+c:/temp/LU ejercicio net integrador/ejercicio-lu-net-generics/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.pdb
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/bin/Debug/netcoreapp2.2/PersonRepository.deps.json
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/bin/Debug/netcoreapp2.2/PersonRepository.dll
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/bin/Debug/netcoreapp2.2/PersonRepository.pdb
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.csprojAssemblyReference.cache
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.AssemblyInfoInputs.cache
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.AssemblyInfo.cs
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.dll
+/home/agustin/lagash/tarea_krako/PersonValidator/PersonRepository/obj/Debug/netcoreapp2.2/PersonRepository.pdb
