@@ -1,0 +1,11 @@
+/home/agustin/lagash/codewars_vocales/obj/Debug/netcoreapp2.2/codewars_vocales.csprojAssemblyReference.cache
+/home/agustin/lagash/codewars_vocales/obj/Debug/netcoreapp2.2/codewars_vocales.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/codewars_vocales/obj/Debug/netcoreapp2.2/codewars_vocales.AssemblyInfoInputs.cache
+/home/agustin/lagash/codewars_vocales/obj/Debug/netcoreapp2.2/codewars_vocales.AssemblyInfo.cs
+/home/agustin/lagash/codewars_vocales/bin/Debug/netcoreapp2.2/codewars_vocales.deps.json
+/home/agustin/lagash/codewars_vocales/bin/Debug/netcoreapp2.2/codewars_vocales.runtimeconfig.json
+/home/agustin/lagash/codewars_vocales/bin/Debug/netcoreapp2.2/codewars_vocales.runtimeconfig.dev.json
+/home/agustin/lagash/codewars_vocales/bin/Debug/netcoreapp2.2/codewars_vocales.dll
+/home/agustin/lagash/codewars_vocales/bin/Debug/netcoreapp2.2/codewars_vocales.pdb
+/home/agustin/lagash/codewars_vocales/obj/Debug/netcoreapp2.2/codewars_vocales.dll
+/home/agustin/lagash/codewars_vocales/obj/Debug/netcoreapp2.2/codewars_vocales.pdb

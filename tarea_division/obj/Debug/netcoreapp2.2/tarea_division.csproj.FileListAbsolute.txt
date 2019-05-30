@@ -1,0 +1,11 @@
+/home/agustin/lagash/tarea_division/bin/Debug/netcoreapp2.2/tarea_division.deps.json
+/home/agustin/lagash/tarea_division/bin/Debug/netcoreapp2.2/tarea_division.runtimeconfig.json
+/home/agustin/lagash/tarea_division/bin/Debug/netcoreapp2.2/tarea_division.runtimeconfig.dev.json
+/home/agustin/lagash/tarea_division/bin/Debug/netcoreapp2.2/tarea_division.dll
+/home/agustin/lagash/tarea_division/bin/Debug/netcoreapp2.2/tarea_division.pdb
+/home/agustin/lagash/tarea_division/obj/Debug/netcoreapp2.2/tarea_division.csprojAssemblyReference.cache
+/home/agustin/lagash/tarea_division/obj/Debug/netcoreapp2.2/tarea_division.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/tarea_division/obj/Debug/netcoreapp2.2/tarea_division.AssemblyInfoInputs.cache
+/home/agustin/lagash/tarea_division/obj/Debug/netcoreapp2.2/tarea_division.AssemblyInfo.cs
+/home/agustin/lagash/tarea_division/obj/Debug/netcoreapp2.2/tarea_division.dll
+/home/agustin/lagash/tarea_division/obj/Debug/netcoreapp2.2/tarea_division.pdb

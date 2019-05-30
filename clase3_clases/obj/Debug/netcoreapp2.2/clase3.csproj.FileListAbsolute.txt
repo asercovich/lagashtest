@@ -1,0 +1,15 @@
+/home/agustin/lagash/clase3/obj/Debug/netcoreapp2.2/clase3.csprojAssemblyReference.cache
+/home/agustin/lagash/clase3/obj/Debug/netcoreapp2.2/clase3.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/clase3/obj/Debug/netcoreapp2.2/clase3.AssemblyInfoInputs.cache
+/home/agustin/lagash/clase3/obj/Debug/netcoreapp2.2/clase3.AssemblyInfo.cs
+/home/agustin/lagash/clase3_clases/obj/Debug/netcoreapp2.2/clase3.csprojAssemblyReference.cache
+/home/agustin/lagash/clase3_clases/obj/Debug/netcoreapp2.2/clase3.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/clase3_clases/obj/Debug/netcoreapp2.2/clase3.AssemblyInfoInputs.cache
+/home/agustin/lagash/clase3_clases/obj/Debug/netcoreapp2.2/clase3.AssemblyInfo.cs
+/home/agustin/lagash/clase3_clases/bin/Debug/netcoreapp2.2/clase3.deps.json
+/home/agustin/lagash/clase3_clases/bin/Debug/netcoreapp2.2/clase3.runtimeconfig.json
+/home/agustin/lagash/clase3_clases/bin/Debug/netcoreapp2.2/clase3.runtimeconfig.dev.json
+/home/agustin/lagash/clase3_clases/bin/Debug/netcoreapp2.2/clase3.dll
+/home/agustin/lagash/clase3_clases/bin/Debug/netcoreapp2.2/clase3.pdb
+/home/agustin/lagash/clase3_clases/obj/Debug/netcoreapp2.2/clase3.dll
+/home/agustin/lagash/clase3_clases/obj/Debug/netcoreapp2.2/clase3.pdb

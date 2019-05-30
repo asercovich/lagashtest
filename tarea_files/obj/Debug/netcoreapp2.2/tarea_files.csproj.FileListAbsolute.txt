@@ -1,0 +1,11 @@
+/home/agustin/lagash/tarea_files/obj/Debug/netcoreapp2.2/tarea_files.csprojAssemblyReference.cache
+/home/agustin/lagash/tarea_files/obj/Debug/netcoreapp2.2/tarea_files.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/tarea_files/obj/Debug/netcoreapp2.2/tarea_files.AssemblyInfoInputs.cache
+/home/agustin/lagash/tarea_files/obj/Debug/netcoreapp2.2/tarea_files.AssemblyInfo.cs
+/home/agustin/lagash/tarea_files/bin/Debug/netcoreapp2.2/tarea_files.deps.json
+/home/agustin/lagash/tarea_files/bin/Debug/netcoreapp2.2/tarea_files.runtimeconfig.json
+/home/agustin/lagash/tarea_files/bin/Debug/netcoreapp2.2/tarea_files.runtimeconfig.dev.json
+/home/agustin/lagash/tarea_files/bin/Debug/netcoreapp2.2/tarea_files.dll
+/home/agustin/lagash/tarea_files/bin/Debug/netcoreapp2.2/tarea_files.pdb
+/home/agustin/lagash/tarea_files/obj/Debug/netcoreapp2.2/tarea_files.dll
+/home/agustin/lagash/tarea_files/obj/Debug/netcoreapp2.2/tarea_files.pdb

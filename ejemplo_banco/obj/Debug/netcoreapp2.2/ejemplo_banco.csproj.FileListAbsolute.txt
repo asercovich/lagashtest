@@ -1,0 +1,11 @@
+/home/agustin/lagash/ejemplo_banco/bin/Debug/netcoreapp2.2/ejemplo_banco.deps.json
+/home/agustin/lagash/ejemplo_banco/bin/Debug/netcoreapp2.2/ejemplo_banco.runtimeconfig.json
+/home/agustin/lagash/ejemplo_banco/bin/Debug/netcoreapp2.2/ejemplo_banco.runtimeconfig.dev.json
+/home/agustin/lagash/ejemplo_banco/bin/Debug/netcoreapp2.2/ejemplo_banco.dll
+/home/agustin/lagash/ejemplo_banco/bin/Debug/netcoreapp2.2/ejemplo_banco.pdb
+/home/agustin/lagash/ejemplo_banco/obj/Debug/netcoreapp2.2/ejemplo_banco.csprojAssemblyReference.cache
+/home/agustin/lagash/ejemplo_banco/obj/Debug/netcoreapp2.2/ejemplo_banco.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/ejemplo_banco/obj/Debug/netcoreapp2.2/ejemplo_banco.AssemblyInfoInputs.cache
+/home/agustin/lagash/ejemplo_banco/obj/Debug/netcoreapp2.2/ejemplo_banco.AssemblyInfo.cs
+/home/agustin/lagash/ejemplo_banco/obj/Debug/netcoreapp2.2/ejemplo_banco.dll
+/home/agustin/lagash/ejemplo_banco/obj/Debug/netcoreapp2.2/ejemplo_banco.pdb
