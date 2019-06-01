@@ -64,17 +64,21 @@ class ABM_Basic : IPersonRepositoryBasic
 
     public int GetCountRangeAges(int min, int max)
     {
-        
-        int i=0;
         if( (min>max) || (min<=0) || (max<=0) ){
             return -1;
         }
-        foreach(Person Persona in People){
-            if( (Persona.Age>=min) && (Persona.Age<=max) ){
-                i++;
-            }
-        }
-        return i;
+        var aux = People.FindAll(x => x.Age >= min && x.Age <= max);
+        return aux.Count;
+        // int i=0;
+        // if( (min>max) || (min<=0) || (max<=0) ){
+        //     return -1;
+        // }
+        // foreach(Person Persona in People){
+        //     if( (Persona.Age>=min) && (Persona.Age<=max) ){
+        //         i++;
+        //     }
+        // }
+        // return i;
     }
 
 
@@ -122,12 +126,13 @@ class ABM_Basic : IPersonRepositoryBasic
     }   
     public Person GetPerson(int Id)
     {
-        foreach(Person Persona in People){
-            if(Persona.Id==Id){
-                return Persona;
-            }
-        }
-        return null;
+        return People.Find(x=>x.Id==Id);
+        // foreach(Person Persona in People){
+        //     if(Persona.Id==Id){
+        //         return Persona;
+        //     }
+        // }
+        // return null;
     }
     private bool IsValidEmail(string email)
     {
