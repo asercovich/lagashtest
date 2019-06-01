@@ -7,31 +7,18 @@ using System;
 class ABM_Basic : IPersonRepositoryBasic
 {
     public List<Person> People { get; set; }
+    private bool IsValidName(string dat){
+        return ( (dat!=null) && (dat!="") ); 
+    }
     public bool IsValidPerson(Person person){
-        if( (person.Age<=0)||(person.Name==null)||(person.Name=="")||!IsValidEmail(person.Email) ){
-            return false;
-        }else{
-        return true; 
-        }
+        return ( (person.Age>0) && IsValidName(person.Name) & IsValidEmail(person.Email) );
     }
 
     public void Add(Person person)
     {
-        if(People==null){
-            return;
+        if( IsValidPerson(person) && People!=null && !People.Any(x => x.Id == person.Id) ){
+            People.Add(person);
         }
-        if (People.Any(x => x.Id == person.Id) ){
-            return;
-        }
-        if(person.Age<=0){
-            return;
-        }
-        if(!IsValidEmail(person.Email)){
-            return;
-        }
-        if( (person.Name == null) || (person.Name == String.Empty) ){
-        }
-        People.Add(person);
         return;
     }
     public void Delete(int id) 
@@ -45,24 +32,39 @@ class ABM_Basic : IPersonRepositoryBasic
     }
     public void Update(Person person)   //asumo que me da el id de la persona a actualizar.
     {
-        foreach (Person Persona in People){
-            if(Persona.Id==person.Id){
-                if(person.Age>0){
-                    Persona.Age=person.Age;
-                }
-                if(person.Name!=null){
-                    Persona.Name=person.Name;
-                }
-                if(IsValidEmail(person.Email)){
-                    Persona.Email=person.Email;
-                }
+        Person aux;
+        if ( (aux = People.Find(x => x.Id == person.Id)) != null){
+            if(person.Age>0){
+                aux.Age=person.Age;
+            }
+            if( IsValidName(person.Name) ){
+                aux.Name=person.Name;
+            }
+            if(IsValidEmail(person.Email)){
+                aux.Email=person.Email;
             }
         }
+
+        
+        // foreach (Person Persona in People){
+        //     if(Persona.Id==person.Id){
+        //         if(person.Age>0){
+        //             Persona.Age=person.Age;
+        //         }
+        //         if(person.Name!=null){
+        //             Persona.Name=person.Name;
+        //         }
+        //         if(IsValidEmail(person.Email)){
+        //             Persona.Email=person.Email;
+        //         }
+        //     }
+        // }
         
     }
 
     public int GetCountRangeAges(int min, int max)
     {
+        
         int i=0;
         if( (min>max) || (min<=0) || (max<=0) ){
             return -1;

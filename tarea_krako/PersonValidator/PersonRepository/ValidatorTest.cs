@@ -330,6 +330,7 @@ namespace PersonRepository
 
             personRepository.Add(new Person()
             {
+                Name = "arielito", //alskdjkjlasdkjlsadkjlsdakjl
                 Id = 2,
                 Email = "ariel@ariel.com",
                 Age = 14,
