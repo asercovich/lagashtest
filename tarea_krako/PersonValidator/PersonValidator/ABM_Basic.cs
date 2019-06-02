@@ -2,15 +2,16 @@ using PersonRepository.Interfaces;
 using PersonRepository.Entities;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 using System;
 
-class ABM_Basic : IPersonRepositoryBasic
+class ABM_Basic : IPersonRepositoryAdvanced//IPersonRepositoryBasic
 {
     public List<Person> People { get; set; }
-    private bool IsValidName(string dat){
+    bool IsValidName(string dat){
         return ( (dat!=null) && (dat!="") ); 
     }
-    public bool IsValidPerson(Person person){
+    bool IsValidPerson(Person person){
         return ( (person.Age>0) && IsValidName(person.Name) & IsValidEmail(person.Email) );
     }
 
@@ -137,5 +138,36 @@ class ABM_Basic : IPersonRepositoryBasic
     private bool IsValidEmail(string email)
     {
         return ( RegexUtilities.IsValidEmail(email) ) && (email != null) && (email != "");
+    }
+
+    public int[] GetNotCapitalizedIds()
+    {
+        List<int> dat = new List<int>();
+        TextInfo myTI = new CultureInfo("en-US",false).TextInfo;
+        foreach(Person aux in People){
+            if( aux.Name != myTI.ToTitleCase(aux.Name) ){
+                dat.Add(aux.Id);
+            }
+        }
+        return dat.ToArray();
+        // var aux = People.FindAll(x=>x.Name == myTI.ToTitleCase(x.Name));
+    }
+
+    public Dictionary<int, string[]> GroupEmailByNameCount()
+    {
+        Dictionary<int, string[]> aux = new Dictionary<int, string[]>();
+        foreach(Person x in People){
+            List<string> str = new List<string>();
+            var values = x.Name.Split('\t');
+             if ( !aux.ContainsKey( values.Count() ) ){
+                str.Add(x.Email);
+                aux.Add(values.Count(),str.ToArray());
+             }else{
+                 Console.WriteLine(aux[ aux.Keys.ElementAt(values.Count())]);
+                 aux[ aux.Keys.ElementAt(values.Count())] = str.ToArray();
+             }
+            
+        }
+        return aux;
     }
 }
