@@ -1,0 +1,128 @@
+@font-face{
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-family: 'poppins-regular';
+}
+
+@font-face{
+    src: url('../fonts/Poppins-Bold.ttf');
+    font-family: 'poppins-bold';
+}
+
+footer {
+    background-color: #EFEFEF;
+    height: 200px;
+}
+
+h1 {
+    font-weight: bold;
+    color:#00174E;
+    font-family: poppins-bold;
+}
+
+h2 {
+    line-height: 40px;
+    font-size: 27px;
+    margin-bottom: 60px;
+    color:#00174E;
+    font-family: poppins-regular;
+}
+h5 {
+    font-weight: bold;
+    font-size: 20px;
+    color:#00174E;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 17px;
+    color: #a6a6a6;
+    font-family: poppins-regular;
+}
+
+.container-header {
+    background-color: #00174E;
+    background-image: url(../img/banner.jpg);
+    background-size: contain;
+    background-position-y: 233px;
+    background-repeat: no-repeat;
+    height: 707px;
+    color: #fff;
+    padding-top: 70px;
+
+}
+
+.container-header h1 {
+    color:#FFF;
+}
+
+.container-header h2 {
+    color:#FFF;
+}
+
+.container-form {
+    display: inline-block;
+    float: right;
+    background-color: #EFEFEF;
+    padding: 5px 5px;
+    color:gray;
+}
+
+.container-form p {
+    font-size: 11px;
+    padding: 0;
+    line-height: 18px;
+    color: #c1c1c1;
+}
+
+.helpers_no_padding {
+    padding: 0;
+}
+
+.box {
+    text-align: center;
+}
+
+.helper_shadow {
+    -webkit-box-shadow: 0px 0px 63px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 63px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 63px -12px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 720px) {
+    .container-header { 
+        height: auto;
+        background-image: none;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 22px;
+        margin: 26px 0;
+    }
+
+    h5 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    img {
+        margin-bottom: 30px;
+    }
+}
+
+
+.encuadre{
+    border:1px solid black;
+    width: 250px; 
+    padding: 10px;
+    text-align: center;
+}
+.encuadre > div > h2{
+    display: inline-block;
+    color: black;
+}

@@ -158,13 +158,17 @@ class ABM_Basic : IPersonRepositoryAdvanced//IPersonRepositoryBasic
         Dictionary<int, string[]> aux = new Dictionary<int, string[]>();
         foreach(Person x in People){
             List<string> str = new List<string>();
-            var values = x.Name.Split('\t');
+            var values = x.Name.Split(' ');
              if ( !aux.ContainsKey( values.Count() ) ){
                 str.Add(x.Email);
-                aux.Add(values.Count(),str.ToArray());
+                aux.Add(values.Count(), str.ToArray());
              }else{
-                 Console.WriteLine(aux[ aux.Keys.ElementAt(values.Count())]);
-                 aux[ aux.Keys.ElementAt(values.Count())] = str.ToArray();
+                foreach(string pe in aux[values.Count()]){
+                    str.Add(pe);
+                }
+                str.Add(x.Email);
+                aux.Remove(values.Count());
+                aux.Add(values.Count(), str.ToArray() );
              }
             
         }
