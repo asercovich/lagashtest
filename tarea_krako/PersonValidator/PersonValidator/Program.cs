@@ -10,7 +10,7 @@ namespace PersonValidator
         static void Main(string[] args)
         {
              var a = new ValidatorTest();
-             var abm = new ABM_Basic();
+             var abm = new ABM();
              a.Validate(abm);
         }
     }

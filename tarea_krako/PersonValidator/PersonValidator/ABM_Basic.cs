@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Globalization;
 using System;
+using System.Linq.Expressions;
 
-class ABM_Basic : IPersonRepositoryAdvanced//IPersonRepositoryBasic
+
+class ABM : IValidatorExpert//IPersonRepositoryAdvanced//IPersonRepositoryBasic
 {
     public List<Person> People { get; set; }
     bool IsValidName(string dat){
@@ -174,4 +176,13 @@ class ABM_Basic : IPersonRepositoryAdvanced//IPersonRepositoryBasic
         }
         return aux;
     }
+   
 }
+
+
+
+ // public bool Run(Person person, Expression<Func<Person, bool>> validation)
+    // {
+    //     var run = validation.Compile();
+    //     return run(person);
+    // }
